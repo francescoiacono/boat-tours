@@ -16,8 +16,8 @@ const config: Config = {
         screenMinusNavbar: 'calc(100vh - 7rem)',
       },
       backgroundImage: {
-        'hero-pattern': "url('/ischia.jpg')",
-        'wave-pattern': "url('/wave.svg')",
+        'hero-pattern': "url('/assets/images/pages/home/hero/ischia.jpg')",
+        'wave-pattern': "url('/assets/images/pages/home/hero/wave.svg')",
       },
       animation: {
         'wave-1': 'wave1 20s linear infinite',

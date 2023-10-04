@@ -7,7 +7,7 @@ export const Hero = () => {
         <Waves />
         <div className=' z-10 absolute flex w-full h-full justify-center items-center'>
           <div className='flex flex-col items-center gap-4 w-full'>
-            <div className='uppercase px-3 md:p-0 text-7xl text-center font-bold mb-5'>
+            <div className='uppercase px-3 md:p-0 text-6xl  md:text-7xl text-center font-bold mb-5'>
               <h1>
                 Explore the <br /> Enchanting Waters <br /> of{' '}
                 <span className='text-red-600'>Ischia</span> with Us
