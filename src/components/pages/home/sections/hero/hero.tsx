@@ -1,5 +1,4 @@
 import { Waves } from './waves/waves';
-import Image from 'next/image';
 
 export const Hero = () => {
   return (

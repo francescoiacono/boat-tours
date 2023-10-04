@@ -9,3 +9,7 @@
 body {
   background-color: #eeeeee;
 }
+
+.hover\:bg-red-600:hover .arrow-icon {
+  fill: white;
+}

@@ -1,5 +1,5 @@
 import { Cruise, cruises } from '@/data';
-import { SignPost } from './signpost/signpost';
+import { SignPost } from './signpost';
 import { TourDatesCTA } from './tourDatesCTA';
 
 export const Signposts = () => {

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export const Gallery = () => {
   return (
-    <section>
+    <section className='relative'>
       <div className='p-10 flex flex-col gap-4 text-black bg-white'>
         <div className='w-10/12 mx-auto'>
           <div className='flex flex-col gap-5 mt-20 mb-10'>
@@ -24,7 +24,7 @@ export const Gallery = () => {
         '
           >
             <Image
-              className='rounded'
+              className='rounded transition-all hover:shadow-xl'
               src='/assets/images/pages/gallery/cruise-boat.jpg'
               width={500}
               height={300}
@@ -32,7 +32,7 @@ export const Gallery = () => {
             />
             <div className='flex flex-col-reverse md:flex-col'>
               <Image
-                className='rounded'
+                className='rounded transition-all hover:shadow-xl'
                 src='/assets/images/pages/gallery/castle-ischia.jpg'
                 width={600}
                 height={400}
@@ -51,7 +51,7 @@ export const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className='bg-wave-white-pattern relative bg-cover bg-center bottom-0 h-[150px]'></div>
+      <div className='bg-wave-white-pattern absolute z-10 bg-cover bg-center bottom-[-150px] w-full h-[150px]'></div>
     </section>
   );
 };
