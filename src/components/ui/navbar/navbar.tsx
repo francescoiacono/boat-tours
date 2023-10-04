@@ -1,6 +1,7 @@
 'use client';
 import { Disclosure } from '@headlessui/react';
 import Image from 'next/image';
+import { ContactInfo } from './contactInfo';
 
 export const Navbar = () => {
   return (
@@ -26,7 +27,7 @@ export const Navbar = () => {
 
           <div
             className={`flex ${
-              open ? 'flex-col gap-5' : 'items-center justify-between'
+              open ? 'flex-col gap-10' : 'items-center justify-between'
             }  w-full m-auto h-full`}
           >
             <div className='font-medium flex gap-2 items-center'>
@@ -58,24 +59,28 @@ export const Navbar = () => {
                 className={`flex flex-col gap-2 md:flex-row justify-evenly flex-auto uppercase`}
               >
                 <li>
-                  <a href='#'>Cruises</a>
+                  <a className='hover:underline' href='#'>
+                    Cruises
+                  </a>
                 </li>
                 <li>
-                  <a href='#'>How to find us</a>
+                  <a className='hover:underline' href='#'>
+                    How to find us
+                  </a>
                 </li>
                 <li>
-                  <a href='#'>Accomodation</a>
+                  <a className='hover:underline' href='#'>
+                    Accomodation
+                  </a>
                 </li>
                 <li>
-                  <a href='#'>Cafe</a>
+                  <a className='hover:underline' href='#'>
+                    Cafe
+                  </a>
                 </li>
               </ul>
 
-              <div className='mt-2 md:m-0 flex gap-10 border-2 border-white-60-opacity px-5 py-2 rounded justify-center'>
-                <button className='flex-grow'>+44 192033894</button>
-                <div className='w-[2px] bg-white-60-opacity'></div>
-                <button className='flex-grow'>English</button>
-              </div>
+              <ContactInfo />
             </div>
           </div>
 
