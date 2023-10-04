@@ -18,6 +18,8 @@ const config: Config = {
       backgroundImage: {
         'hero-pattern': "url('/assets/images/pages/home/hero/ischia.jpg')",
         'wave-pattern': "url('/assets/images/pages/home/hero/wave.svg')",
+        'wave-white-pattern':
+          "url('/assets/images/pages/gallery/white-down-wave.svg')",
       },
       animation: {
         'wave-1': 'wave1 20s linear infinite',

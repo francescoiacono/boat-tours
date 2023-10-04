@@ -1,5 +1,5 @@
 import { Navbar } from '@/components/ui';
-import { Hero, Signposts } from './sections';
+import { Gallery, Hero, Signposts } from './sections';
 
 export const Home = () => {
   return (
@@ -7,6 +7,7 @@ export const Home = () => {
       <Navbar />
       <Hero />
       <Signposts />
+      <Gallery />
     </main>
   );
 };

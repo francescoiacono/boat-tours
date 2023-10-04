@@ -1,4 +1,5 @@
 import { Waves } from './waves/waves';
+import Image from 'next/image';
 
 export const Hero = () => {
   return (
@@ -14,7 +15,7 @@ export const Hero = () => {
               </h1>
             </div>
             <div className='flex flex-1 justify-end'>
-              <button className='bg-red-600 text-white uppercase text-black px-10 py-3 rounded-md font-semibold text-xl'>
+              <button className='bg-red-600 text-white uppercase px-10 py-3 rounded-md font-semibold text-xl'>
                 Book Now
               </button>
             </div>

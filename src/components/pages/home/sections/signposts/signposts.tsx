@@ -4,7 +4,7 @@ import { TourDatesCTA } from './tourDatesCTA';
 
 export const Signposts = () => {
   return (
-    <section className='h-screen'>
+    <section>
       <h1 className='text-5xl w-full text-center my-10 font-bold'>Cruises</h1>
       <div className='flex px-4 gap-4 justify-center flex-wrap'>
         {cruises.map((cruise: Cruise) => (
