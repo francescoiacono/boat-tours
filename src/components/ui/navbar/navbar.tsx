@@ -5,16 +5,42 @@ import { Close, Menu } from '../icons';
 import { BottomBorder } from './bottomBorder';
 import { Logo } from './logo';
 import { Links } from './links';
+import { useEffect, useState } from 'react';
 
 export const Navbar = () => {
+  const [scrollHeight, setScrollHeight] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollHeight(window.scrollY);
+    };
+
+    handleScroll();
+
+    addEventListener('scroll', handleScroll);
+
+    return () => {
+      removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <Disclosure as='header' className='w-full h-navbar z-10 absolute'>
+    <Disclosure
+      as='header'
+      className={`${
+        scrollHeight > 0 ? 'fixed h-24 shadow-md' : 'h-navbar absolute'
+      } w-full  z-10 transition-all`}
+    >
       {({ open }) => (
         <nav
           className={`${
             open
-              ? 'fixed bg-red-600 h-screen flex flex-col items-start'
-              : 'bg-gradient-to-b from-black to-transparent'
+              ? 'fixed bg-red-600 flex flex-col items-start'
+              : `${
+                  scrollHeight > 0
+                    ? 'bg-red-600'
+                    : 'bg-gradient-to-b from-black to-transparent'
+                } transition-all duration-500`
           } w-full h-full text-white px-10`}
         >
           <Disclosure.Button
@@ -46,7 +72,7 @@ export const Navbar = () => {
             </div>
           </div>
 
-          <BottomBorder open={open} />
+          <BottomBorder open={scrollHeight > 0 || open} />
         </nav>
       )}
     </Disclosure>
