@@ -1,22 +1,17 @@
-import { Waves } from './waves/waves';
+import { PrimaryButton } from '@/components/ui';
+import { HeroTitle } from './heroTitle';
+import { Waves } from './waves';
 
 export const Hero = () => {
   return (
-    <section>
+    <section aria-labelledby='hero-section'>
       <div className='relative flex flex-col justify-end top-0 left-0 h-screen w-screen text-white z-0 bg-hero-pattern bg-no-repeat bg-bottom bg-cover'>
         <Waves />
         <div className=' z-10 absolute flex w-full h-full justify-center items-center'>
           <div className='flex flex-col items-center gap-4 w-full'>
-            <div className='uppercase px-3 md:p-0 text-6xl  md:text-7xl text-center font-bold mb-5'>
-              <h1>
-                Explore the <br /> Enchanting Waters <br /> of{' '}
-                <span className='text-red-600'>Ischia</span> with Us
-              </h1>
-            </div>
+            <HeroTitle />
             <div className='flex flex-1 justify-end'>
-              <button className='bg-red-600 text-white uppercase px-10 py-3 rounded-md font-semibold text-xl'>
-                Book Now
-              </button>
+              <PrimaryButton className='text-2xl'>Book Now</PrimaryButton>
             </div>
           </div>
         </div>
