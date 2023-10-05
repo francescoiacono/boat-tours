@@ -3,10 +3,11 @@ import Image from 'next/image';
 
 interface ImagePresentationProps {
   cruise: Cruise;
+  hovering: boolean;
 }
 
 export const ImagePresentation: React.FC<ImagePresentationProps> = (props) => {
-  const { cruise } = props;
+  const { cruise, hovering } = props;
 
   return (
     <div className='flex flex-col gap-2 items-center'>
@@ -20,8 +21,12 @@ export const ImagePresentation: React.FC<ImagePresentationProps> = (props) => {
       <h1 className='text-2xl uppercase text-center font-bold'>
         {cruise.name}
       </h1>
-      <h2 className='text-center text-gray-700 font-thin'>
-        Only £{cruise.price}
+      <h2
+        className={`${
+          hovering ? 'text-white' : 'text-gray-500'
+        } text-center font-thin`}
+      >
+        From £{cruise.price}
       </h2>
     </div>
   );

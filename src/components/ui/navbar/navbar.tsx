@@ -29,16 +29,16 @@ export const Navbar = () => {
       as='header'
       className={`${
         scrollHeight > 0 ? 'fixed h-24 shadow-md' : 'h-navbar absolute'
-      } w-full  z-10 transition-all`}
+      } w-full z-50 transition-all`}
     >
       {({ open }) => (
         <nav
           className={`${
             open
-              ? 'fixed bg-red-600 flex flex-col items-start'
+              ? 'fixed bg-primary-color flex flex-col items-start'
               : `${
                   scrollHeight > 0
-                    ? 'bg-red-600'
+                    ? 'bg-primary-color'
                     : 'bg-gradient-to-b from-black to-transparent'
                 } transition-all duration-500`
           } w-full h-full text-white px-10`}
@@ -67,7 +67,7 @@ export const Navbar = () => {
                 open ? 'flex flex-col' : 'hidden'
               } md:flex md:items-center md:justify-end w-full`}
             >
-              <Links />
+              <Links whiteUnderline={scrollHeight <= 0} />
               <ContactInfo />
             </div>
           </div>

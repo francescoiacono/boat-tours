@@ -2,7 +2,7 @@ import { Logo } from '../navbar/logo';
 
 export const Footer = () => {
   return (
-    <div className='bg-red-600 p-10 px-10 pt-[200px] text-white flex w-full justify-between'>
+    <div className='bg-primary-color border-t border-white-60-opacity p-10 px-10 text-white flex w-full justify-between'>
       <Logo />
       <div className='flex flex-auto justify-around'>
         <ul className='flex flex-col gap-1'>

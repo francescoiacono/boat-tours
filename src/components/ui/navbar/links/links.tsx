@@ -1,11 +1,19 @@
-export const Links = () => {
+interface LinksProps {
+  whiteUnderline?: boolean;
+}
+
+export const Links: React.FC<LinksProps> = (props) => {
+  const { whiteUnderline } = props;
+
   return (
     <ul
       className={`flex flex-col gap-2 md:flex-row justify-evenly flex-auto uppercase`}
     >
       <li>
         <a
-          className=' border-transparent transition-all hover:border-b-4 hover:border-red-500'
+          className={`${
+            whiteUnderline ? 'hover:border-primary-color' : 'hover:border-white'
+          } border-transparent transition-all hover:border-b-4`}
           href='#'
         >
           Cruises
@@ -13,7 +21,9 @@ export const Links = () => {
       </li>
       <li>
         <a
-          className=' border-transparent transition-all hover:border-b-4 hover:border-red-500'
+          className={`${
+            whiteUnderline ? 'hover:border-primary-color' : 'hover:border-white'
+          } border-transparent transition-all hover:border-b-4`}
           href='#'
         >
           How to find us
@@ -21,7 +31,9 @@ export const Links = () => {
       </li>
       <li>
         <a
-          className=' border-transparent transition-all hover:border-b-4 hover:border-red-500'
+          className={`${
+            whiteUnderline ? 'hover:border-primary-color' : 'hover:border-white'
+          } border-transparent transition-all hover:border-b-4`}
           href='#'
         >
           Accomodation
@@ -29,7 +41,9 @@ export const Links = () => {
       </li>
       <li>
         <a
-          className=' border-transparent transition-all hover:border-b-4 hover:border-red-500'
+          className={`${
+            whiteUnderline ? 'hover:border-primary-color' : 'hover:border-white'
+          } border-transparent transition-all hover:border-b-4`}
           href='#'
         >
           Cafe

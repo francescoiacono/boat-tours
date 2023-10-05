@@ -10,16 +10,18 @@ const config: Config = {
     extend: {
       colors: {
         'white-60-opacity': '#ffffff80',
+        'primary-color': '#228B22',
       },
       height: {
         navbar: '7rem',
         screenMinusNavbar: 'calc(100vh - 7rem)',
       },
       backgroundImage: {
-        'hero-pattern': "url('/assets/images/pages/home/hero/ischia.jpg')",
+        'hero-pattern': "url('/assets/images/pages/home/hero/maronti.jpg')",
         'wave-pattern': "url('/assets/images/pages/home/hero/wave.svg')",
         'wave-white-pattern':
           "url('/assets/images/pages/gallery/white-down-wave.svg')",
+        'map-pattern': "url('/assets/images/pages/home/howToFindUs/map.png')",
       },
       animation: {
         'wave-1': 'wave1 20s linear infinite',

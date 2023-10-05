@@ -15,11 +15,13 @@ export const TextContent: React.FC<TextContentProps> = (props) => {
       <p>{cruise.description}</p>
       <Link
         href={cruise.link}
-        className='font-bold uppercase text-sm flex justify-center gap-2 items-center'
+        className={`font-bold uppercase text-sm flex justify-center gap-2 items-center ${
+          hovering && 'animate-bounce'
+        }`}
         aria-label={`Read more about ${cruise.name}`}
       >
         Read More
-        <ArrowRight className='w-5 h-5 transition-all' white={hovering} />
+        <ArrowRight className='w-5 h-5 transition-all ' white={hovering} />
       </Link>
     </div>
   );
