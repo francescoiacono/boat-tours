@@ -17,8 +17,8 @@ export const Close: React.FC<Props> = (props) => {
       <path
         d='M10 137.279L137.279 10M137.279 137.279L10 10'
         stroke='white'
-        stroke-width='20'
-        stroke-linecap='round'
+        strokeWidth='20'
+        strokeLinecap='round'
       />
     </svg>
   );

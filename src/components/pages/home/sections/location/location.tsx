@@ -12,7 +12,7 @@ export const Location = () => {
           <ul className='list-disc flex flex-col gap-4'>
             <li className='mt-4 ml-16'>
               <Link
-                className='underline'
+                className='underline text-ellipsis overflow-hidden block'
                 href='https://w3w.co/preferences.forestry.reimpose'
               >
                 https://w3w.co/preferences.forestry.reimpose

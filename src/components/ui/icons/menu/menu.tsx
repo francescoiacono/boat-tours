@@ -17,8 +17,8 @@ export const Menu: React.FC<Props> = (props) => {
       <path
         d='M10 10H190M10 80H190M10 150H190'
         stroke='white'
-        stroke-width='20'
-        stroke-linecap='round'
+        strokeWidth='20'
+        strokeLinecap='round'
       />
     </svg>
   );

@@ -20,12 +20,12 @@ export const Logo = () => {
         <path
           d='M13.1889 61.5L56.5 7.14879V73.5H52.5V64V61.5H50H13.1889Z'
           stroke='white'
-          stroke-width='5'
+          strokeWidth='5'
         />
         <path
           d='M63 62V22.5311L85.5536 62H63Z'
           stroke='white'
-          stroke-width='4'
+          strokeWidth='4'
         />
       </svg>
     </div>
