@@ -1,9 +1,15 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+
 interface LinksProps {
   whiteUnderline?: boolean;
 }
 
 export const Links: React.FC<LinksProps> = (props) => {
   const { whiteUnderline } = props;
+
+  const t = useTranslations('NavLinks');
 
   return (
     <ul
@@ -16,7 +22,7 @@ export const Links: React.FC<LinksProps> = (props) => {
           } border-transparent transition-all hover:border-b-4`}
           href='#'
         >
-          Cruises
+          {t('link1')}
         </a>
       </li>
       <li>
@@ -26,7 +32,7 @@ export const Links: React.FC<LinksProps> = (props) => {
           } border-transparent transition-all hover:border-b-4`}
           href='#'
         >
-          How to find us
+          {t('link2')}
         </a>
       </li>
       <li>
@@ -36,7 +42,7 @@ export const Links: React.FC<LinksProps> = (props) => {
           } border-transparent transition-all hover:border-b-4`}
           href='#'
         >
-          Accomodation
+          {t('link3')}
         </a>
       </li>
       <li>
@@ -46,7 +52,7 @@ export const Links: React.FC<LinksProps> = (props) => {
           } border-transparent transition-all hover:border-b-4`}
           href='#'
         >
-          Cafe
+          {t('link4')}
         </a>
       </li>
     </ul>

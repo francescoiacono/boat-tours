@@ -1,0 +1,59 @@
+{
+  "HeroTitle": {
+    "part1": "ESPLORA LE",
+    "part2": "INCANTEVOLI ACQUE",
+    "part3": "DI",
+    "part4": "CON NOI",
+    "location": "ISCHIA",
+    "button": "Prenota ora"
+  },
+
+  "NavLinks": {
+    "link1": "Crociere",
+    "link2": "Galleria",
+    "link3": "Come Trovarci",
+    "link4": "Caffetteria"
+  },
+
+  "Cruises": {
+    "cruise1": {
+      "name": "Avventure nella Grotta Azzurra",
+      "description": "Descrizione della crociera in italiano! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
+    },
+    "cruise2": {
+      "name": "Esploratori dell'Aqua Azzurra",
+      "description": "Descrizione della crociera in italiano! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
+    },
+    "cruise3": {
+      "name": "Tour del Sentiero di Nettuno",
+      "description": "Descrizione della crociera in italiano! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
+    },
+    "cruise4": {
+      "name": "Viaggi alla Vista del Vesuvio",
+      "description": "Descrizione della crociera in italiano! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
+    }
+  },
+
+  "TourDatesCTA": {
+    "description": "Unisciti a noi in un viaggio magico attraverso le acque cristalline di Ischia per scoprire calette nascoste, grotte incantevoli e sorgenti termali tranquille. Immergiti in panorami mozzafiato, tuffati nelle profondità azzurre o semplicemente abbiati sotto il romantico tramonto ischitano.",
+    "button": "Verifica la Disponibilità"
+  },
+
+  "Gallery": {
+    "header": {
+      "part1": "Esplora",
+      "location": "Ischia"
+    },
+    "infoBox": {
+      "title": "La Nostra Galleria",
+      "description": "Esplora Ischia attraverso migliaia di foto mozzafiato.",
+      "button": "Visualizza la Galleria"
+    }
+  },
+
+  "Location": {
+    "title": "Come Trovarci",
+    "address": "Corso Luigi Manzi, 89, 80074 Casamicciola Terme (NA)",
+    "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici."
+  }
+}

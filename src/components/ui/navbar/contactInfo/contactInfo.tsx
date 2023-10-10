@@ -37,7 +37,7 @@ export const ContactInfo = () => {
                         className={`${
                           active ? 'bg-gray-100' : ''
                         } block px-4 py-2 text-sm text-black hover:text-white hover:bg-primary-color`}
-                        href='#'
+                        href='/en'
                       >
                         English
                       </a>
@@ -49,7 +49,7 @@ export const ContactInfo = () => {
                         className={`${
                           active ? 'bg-gray-100' : ''
                         }  block px-4 py-2 text-sm text-black hover:text-white hover:bg-primary-color`}
-                        href='#'
+                        href='/it'
                       >
                         Italian
                       </a>

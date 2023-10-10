@@ -1,0 +1,59 @@
+{
+  "HeroTitle": {
+    "part1": "Explore the",
+    "part2": "Enchanting Waters",
+    "part3": "of",
+    "part4": "with Us",
+    "location": "Ischia",
+    "button": "Book Now"
+  },
+
+  "NavLinks": {
+    "link1": "Cruises",
+    "link2": "Gallery",
+    "link3": "How To Find Us",
+    "link4": "Cafe"
+  },
+
+  "Cruises": {
+    "cruise1": {
+      "name": "Blue Grotto Adventures",
+      "description": "Cruise Description in English! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
+    },
+    "cruise2": {
+      "name": "Aqua Azzurra Explorers",
+      "description": "Cruise Description in English! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
+    },
+    "cruise3": {
+      "name": "Neptune’s Pathway Tours",
+      "description": "Cruise Description in English! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
+    },
+    "cruise4": {
+      "name": "Vesuvius Vista Voyages",
+      "description": "Cruise Description in English! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
+    }
+  },
+
+  "TourDatesCTA": {
+    "description": "Join us on a magical voyage across Ischia's crystal-clear waters to unearth hidden coves, enchanting grottoes, and tranquil thermal springs. Immerse yourself in breathtaking panoramas, dive into azure depths, or simply bask under the romantic Ischian sunset.",
+    "button": "Check Availability"
+  },
+
+  "Gallery": {
+    "header": {
+      "part1": "Explore",
+      "location": "Ischia"
+    },
+    "infoBox": {
+      "title": "Our Gallery",
+      "description": "Explore Ischia across thousands of stunning photos.",
+      "button": "View Gallery"
+    }
+  },
+
+  "Location": {
+    "title": "How To Find Us",
+    "address": "Corso Luigi Manzi, 89, 80074 Casamicciola Terme NA, Italy",
+    "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
+  }
+}

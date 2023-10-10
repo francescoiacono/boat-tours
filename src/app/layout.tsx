@@ -1,22 +1,11 @@
 import './globals.css';
-import type { Metadata } from 'next';
-import { Cairo } from 'next/font/google';
 
-const cairo = Cairo({ subsets: ['latin'] });
-
-export const metadata: Metadata = {
-  title: 'Boat Tours - Ischia',
-  description: 'Boat Tours - Ischia - Italy',
+type Props = {
+  children: React.ReactNode;
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang='en'>
-      <body className={cairo.className}>{children}</body>
-    </html>
-  );
+// Since we have a `not-found.tsx` page on the root, a layout file
+// is required, even if it's just passing children through.
+export default function RootLayout({ children }: Props) {
+  return children;
 }

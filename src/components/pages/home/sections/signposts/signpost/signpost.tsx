@@ -1,4 +1,5 @@
 'use client';
+
 import { useState } from 'react';
 import { Cruise } from '@/data';
 import { ImagePresentation } from './imagePresentation';
@@ -24,7 +25,7 @@ export const SignPost: React.FC<SignPostProps> = ({ cruise }) => {
       aria-labelledby={`title-${cruise.id}`}
       onMouseEnter={handleOnMouseEnter}
       onMouseLeave={handleOnMouseLeave}
-      className='flex flex-col max-w-xs gap-10 justify-around items-center border border-gray-300 rounded p-5 hover:bg-primary-color hover:shadow-xl hover:text-white hover:border-none hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer'
+      className='flex flex-col max-w-xs gap-4 justify-around items-center border border-gray-300 rounded p-5 hover:bg-primary-color hover:shadow-xl hover:text-white hover:border-none hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer'
     >
       <ImagePresentation cruise={cruise} hovering={hovering} />
       <TextContent cruise={cruise} hovering={hovering} />

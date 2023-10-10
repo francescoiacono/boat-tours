@@ -10,9 +10,6 @@ export const Hero = () => {
         <div className=' z-10 absolute flex w-full h-full justify-center items-center'>
           <div className='flex flex-col items-center gap-4 w-full'>
             <HeroTitle />
-            <div className='flex flex-1 justify-end'>
-              <PrimaryButton className='text-2xl'>Book Now</PrimaryButton>
-            </div>
           </div>
         </div>
       </div>
