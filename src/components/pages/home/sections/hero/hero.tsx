@@ -1,4 +1,3 @@
-import { PrimaryButton } from '@/components/ui';
 import { HeroTitle } from './heroTitle';
 import { Waves } from './waves';
 

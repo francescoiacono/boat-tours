@@ -3,11 +3,10 @@ import Image from 'next/image';
 
 interface ImagePresentationProps {
   cruise: Cruise;
-  hovering: boolean;
 }
 
 export const ImagePresentation: React.FC<ImagePresentationProps> = (props) => {
-  const { cruise, hovering } = props;
+  const { cruise } = props;
 
   return (
     <Image
