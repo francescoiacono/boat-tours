@@ -18,18 +18,22 @@
   "Cruises": {
     "cruise1": {
       "name": "Blue Grotto Adventures",
+      "price": "From {cost}",
       "description": "Cruise Description in English! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
     },
     "cruise2": {
       "name": "Aqua Azzurra Explorers",
+      "price": "From {cost}",
       "description": "Cruise Description in English! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
     },
     "cruise3": {
       "name": "Neptune’s Pathway Tours",
+      "price": "From {cost}",
       "description": "Cruise Description in English! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
     },
     "cruise4": {
       "name": "Vesuvius Vista Voyages",
+      "price": "From {cost}",
       "description": "Cruise Description in English! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
     }
   },

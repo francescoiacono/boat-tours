@@ -18,18 +18,22 @@
   "Cruises": {
     "cruise1": {
       "name": "Avventure nella Grotta Azzurra",
+      "price": "A partire da {cost}",
       "description": "Descrizione della crociera in italiano! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
     },
     "cruise2": {
       "name": "Esploratori dell'Aqua Azzurra",
+      "price": "A partire da {cost}",
       "description": "Descrizione della crociera in italiano! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
     },
     "cruise3": {
       "name": "Tour del Sentiero di Nettuno",
+      "price": "A partire da {cost}",
       "description": "Descrizione della crociera in italiano! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
     },
     "cruise4": {
       "name": "Viaggi alla Vista del Vesuvio",
+      "price": "A partire da {cost}",
       "description": "Descrizione della crociera in italiano! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
     }
   },

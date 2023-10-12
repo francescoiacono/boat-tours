@@ -1,6 +1,7 @@
 import { ArrowRight } from '@/components/ui/icons';
 import { Cruise } from '@/data';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useFormatter } from 'next-intl';
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
 interface TextContentProps {
@@ -12,11 +13,18 @@ export const TextContent: React.FC<TextContentProps> = (props) => {
   const { cruise, hovering } = props;
 
   const t = useTranslations('Cruises');
+  const format = useFormatter();
+  const pathname = usePathname();
 
   // Retrieve translations
-
   const cruiseName = t(`cruise${cruise.id}.name`);
   const cruiseDescription = t(`cruise${cruise.id}.description`);
+  const cruisePrice = t(`cruise${cruise.id}.price`, {
+    cost: format.number(cruise.price, {
+      style: 'currency',
+      currency: pathname === '/it' ? 'EUR' : 'GBP',
+    }),
+  });
 
   return (
     <div className='flex flex-col gap-10'>
@@ -27,9 +35,9 @@ export const TextContent: React.FC<TextContentProps> = (props) => {
         <h2
           className={`${
             hovering ? 'text-white' : 'text-gray-500'
-          } text-center font-thin`}
+          } text-center font-thin mt-2`}
         >
-          From £{cruise.price}
+          {cruisePrice}
         </h2>
       </div>
 

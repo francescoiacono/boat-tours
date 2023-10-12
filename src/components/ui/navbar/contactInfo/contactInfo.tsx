@@ -1,11 +1,15 @@
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
+import { Phone } from '../../icons';
 
 export const ContactInfo = () => {
   return (
     <div className='mt-10 md:m-0 flex gap-10 border-2 border-white-60-opacity px-5 py-2 rounded justify-center'>
       <div className='flex-none w-30 text-center'>
-        <a href='tel:000000-000'>+44 000000 0000</a>
+        <a href='tel:000000-000' className='flex items-center gap-2'>
+          {' '}
+          <Phone className='w-4 h-4' /> +44 000000 0000
+        </a>
       </div>
       <div className='w-[2px] bg-white-60-opacity'></div>
 
