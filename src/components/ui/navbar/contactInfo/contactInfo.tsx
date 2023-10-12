@@ -10,7 +10,7 @@ export const ContactInfo = () => {
   const pathname = usePathname();
 
   return (
-    <div className='mt-10 md:m-0 flex gap-10 border-2 border-white-60-opacity px-5 py-2 rounded justify-center'>
+    <div className='mt-10 md:m-0 flex md:gap-10 border-2 border-white-60-opacity px-5 py-2 rounded justify-center'>
       <div className='flex-none w-30 text-center'>
         <a href='tel:000000-000' className='flex items-center gap-2'>
           {' '}
