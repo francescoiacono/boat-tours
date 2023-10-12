@@ -1,4 +1,3 @@
-'use client';
 import { PrimaryButton } from '@/components/ui';
 import { useTranslations } from 'next-intl';
 

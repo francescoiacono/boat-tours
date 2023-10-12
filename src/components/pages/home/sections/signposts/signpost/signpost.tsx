@@ -1,5 +1,3 @@
-'use client';
-
 import { useState } from 'react';
 import { Cruise } from '@/data';
 import { ImagePresentation } from './imagePresentation';

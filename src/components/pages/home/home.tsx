@@ -6,7 +6,7 @@ export const Home = () => {
     <main>
       <Navbar />
       <Hero />
-      <Signposts title={'BT Cruises'} />
+      <Signposts />
       <Gallery />
       <Location />
       <Footer />

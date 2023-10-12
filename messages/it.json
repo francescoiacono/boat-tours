@@ -8,6 +8,11 @@
     "button": "Prenota ora"
   },
 
+  "NavLanguages": {
+    "language1": "English",
+    "language2": "Italiano"
+  },
+
   "NavLinks": {
     "link1": "Crociere",
     "link2": "Galleria",
@@ -16,6 +21,7 @@
   },
 
   "Cruises": {
+    "title": "Le Nostre Crociere",
     "cruise1": {
       "name": "Avventure nella Grotta Azzurra",
       "price": "A partire da {cost}",
@@ -59,5 +65,21 @@
     "title": "Come Trovarci",
     "address": "Corso Luigi Manzi, 89, 80074 Casamicciola Terme (NA)",
     "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici."
+  },
+
+  "Footer": {
+    "section1": {
+      "title": "Link Utili"
+    },
+    "section2": {
+      "title": "Social Media"
+    },
+    "section3": {
+      "title": "Contattaci"
+    },
+
+    "copyright": {
+      "message": "© {year, date, ::yyyy} Ischia Boat Cruises. Tutti i diritti riservati."
+    }
   }
 }

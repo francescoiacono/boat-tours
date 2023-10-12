@@ -8,6 +8,11 @@
     "button": "Book Now"
   },
 
+  "NavLanguages": {
+    "language1": "English",
+    "language2": "Italiano"
+  },
+
   "NavLinks": {
     "link1": "Cruises",
     "link2": "Gallery",
@@ -16,6 +21,7 @@
   },
 
   "Cruises": {
+    "title": "Our Cruises",
     "cruise1": {
       "name": "Blue Grotto Adventures",
       "price": "From {cost}",
@@ -59,5 +65,20 @@
     "title": "How To Find Us",
     "address": "Corso Luigi Manzi, 89, 80074 Casamicciola Terme NA, Italy",
     "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed tincidunt aliquam, velit diam ultrices nunc, nec ultrici"
+  },
+
+  "Footer": {
+    "section1": {
+      "title": "Useful Links"
+    },
+    "section2": {
+      "title": "Social Media"
+    },
+    "section3": {
+      "title": "Contact Us"
+    },
+    "copyright": {
+      "message": "© {year, date, ::yyyy} Ischia Boat Cruises. All rights reserved."
+    }
   }
 }

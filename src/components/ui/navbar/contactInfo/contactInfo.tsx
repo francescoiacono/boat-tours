@@ -1,8 +1,14 @@
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
 import { Phone } from '../../icons';
+import { useTranslations } from 'next-intl';
+import { usePathname } from 'next/navigation';
+import Link from 'next/link';
 
 export const ContactInfo = () => {
+  const t = useTranslations('NavLanguages');
+  const pathname = usePathname();
+
   return (
     <div className='mt-10 md:m-0 flex gap-10 border-2 border-white-60-opacity px-5 py-2 rounded justify-center'>
       <div className='flex-none w-30 text-center'>
@@ -22,7 +28,7 @@ export const ContactInfo = () => {
                 'transition-all bg-white rounded rounded-b-none text-black p-0 m-0'
               } w-full text-center transition-colors duration-200 focus:outline-none focus:ring`}
             >
-              English
+              {pathname === '/it' ? t('language2') : t('language1')}
             </Menu.Button>
             <Transition
               as={Fragment}
@@ -37,26 +43,26 @@ export const ContactInfo = () => {
                 <div className='py-1'>
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         className={`${
                           active ? 'bg-gray-100' : ''
                         } block px-4 py-2 text-sm text-black hover:text-white hover:bg-primary-color`}
                         href='/en'
                       >
-                        English
-                      </a>
+                        {t('language1')}
+                      </Link>
                     )}
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         className={`${
                           active ? 'bg-gray-100' : ''
                         }  block px-4 py-2 text-sm text-black hover:text-white hover:bg-primary-color`}
                         href='/it'
                       >
-                        Italian
-                      </a>
+                        {t('language2')}
+                      </Link>
                     )}
                   </Menu.Item>
                 </div>
